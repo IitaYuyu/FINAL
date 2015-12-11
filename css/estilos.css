@@ -1,0 +1,45 @@
+body{
+background:darkviolet; /*Color de fondo */
+widt:1200px;
+margin:auto;
+}
+#logo{ 
+	/*Coloco de fondo la imagen y que no se repita*/
+background: url(../imagenes/logo.png) no-repeat right;
+background-size: 30%; /*especifica el tamaño de las imagenes de fondo*/
+padding: 160px 0px 0px; /* La propiedad padding se utiliza para definir el ancho del espacio que se encuentra 
+entre el elemento y e borde de la pagina padding:arriba abajo izquierda; */
+
+text-transform: uppercase; /*Todo lo que esta en la seccion logo se ponga en mayusculas*/
+}
+#logo h1 a{
+	letter-spacing: 1px;
+	text-transform: none;
+}
+#subtitulo{
+	margin-top: -1em;
+	font-size: 2em;
+	font-weight: CASTELLAR;
+	font-family: GOUDY STOUT;
+	color: #000000;
+}	
+#menu li{
+		display: inline-block;
+	}
+
+#menu li{
+	display: block;
+	float: left; /*COLOCA EL ELEMENTO A LA IZQUIERDA*/
+	margin-rigt: 5px;
+	padding: 15px 15px;
+}
+
+#seccion{ width: 1300px; padding: 20px 40px; background: #FFFFFF; height: 390px}
+#imagen{width: 320px;height: 250px;text-align: center;}/*tex-align SE ALINEA EL TEXTO CENTRADO*/
+#subtitulo2{font-family: tahoma,sans-serif; font-size: 25px; color: #039}
+/* FONT-FAMILY ESTILO DE LA FUENTE, FONT-SIZE TAMAÑO*/
+#ladoderecho{margin: -5px 20px 0px 0px; float: right;width: 65%;}
+#pie{text-align: center;font-size: 25px;}
+
+
+#formulario{text-align: center;margin: -255px 50px 0px 0px; float: right;width: 65%}
