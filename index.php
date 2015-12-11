@@ -35,7 +35,7 @@
 
 <section id="seccion">
 	<header id="subtitulo2">
-		<h4>Tienda Online</h4>
+		<h4>TIENDA DE PRODUCTOS</h4>
 	</header>
 	<img src="imagenes/caja.png" width="300px" height="200px" 
 	id="imagen">
